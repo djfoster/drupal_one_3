@@ -31,6 +31,7 @@ class MacExamplesForm extends FormBase {
       '#type' => 'textarea',
       '#title' => 'Area de texto 1',
       '#resizable' => 'none'
+      '#required' => TRUE,
     );
     
     $form['checkbox_1'] = array(
@@ -47,16 +48,19 @@ class MacExamplesForm extends FormBase {
     $form['fecha_1'] = array(
       '#type' => 'date',
       '#title' => 'Fecha 1',
+      '#required' => TRUE,
     );
     
     $form['email_1'] = array(
       '#type' => 'email',
       '#title' => 'Ingresa correo electrónico',
+      '#required' => TRUE,
     );
     
     $form['numero_1'] = array(
       '#type' => 'number',
       '#title' => 'Ingresa un número',
+      '#required' => TRUE,
     );
     
     $form['actions']['#type'] = 'actions';
