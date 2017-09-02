@@ -30,4 +30,7 @@ text-shadow: 2px 2px 6px #000;
 #block-mac-branding {
 float: right;
 }
-.men
+.menu--main {
+float: left;
+}
+
